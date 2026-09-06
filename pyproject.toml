@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hvac-agent-energy-mapping"
+version = "0.1.0"
+description = "Auditable BAS point-to-HVAC equipment mapping with abstention"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Weili Weng"}]
+dependencies = ["pandas>=2.0"]
+
+[project.scripts]
+hvac-map = "hvac_mapping.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
