@@ -1,0 +1,16 @@
+{
+  "source_rows": 52,
+  "schedule_equipment": 11,
+  "missing_tag_rows": 1,
+  "duplicate_rows": 2,
+  "floor_disagreements": 1,
+  "unit_disagreements": 1,
+  "mapping_status_counts": {
+    "abstain": 13,
+    "mapped_high_confidence": 34,
+    "not_applicable": 3,
+    "review": 2
+  },
+  "covered_equipment": 11,
+  "schedule_coverage": 1.0
+}
